@@ -1,0 +1,62 @@
+.content {
+  position: absolute;
+  background-color: $light-pink;
+  padding-top: 2.5%;
+  overflow-y: scroll;
+  width: 16.5%;
+
+  &-item {
+    height: 100vh;
+    padding: 2rem 1rem;
+  }
+
+}
+
+.collapse-menu {
+  input[type="checkbox"] {
+    display: none;
+
+    & + label {
+      p {
+        cursor: pointer;
+        color: $violet;
+        font-weight: bold;
+      }
+
+      div {
+        color: $text-color;
+        display: none;
+
+        ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+            a {
+              display: block;
+              padding: 0.33rem 1rem;
+              text-decoration: none;
+              color: $pink;
+
+
+            }
+            a:hover{
+              border: 1px solid $pink;
+              background-color: $violet;
+              color: $light;
+              font-weight: bold;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+
+    &:checked + label {
+      div {
+        display: block;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,44 @@
+/*
+  Tüm değişkenlerimizi bu dosyada tanımlıyoruz.
+  Bu sayede değişkenlerimizi tek bir yerden yönetebiliyoruz.
+  Birden fazla kez kullanacağımız tüm değerler için bir değişken tanımlamayı tercih ediyoruz.
+*/
+
+// Fonts
+// -------------------------
+$font-family-sans-serif: "Open Sans", sans-serif;
+$font-size-base: 16px;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$line-height-base: 1.5;
+
+// Colors
+// -------------------------
+$dark: #060d0b;
+$violet: #712cf9;
+$light-pink: #e7c8ec;
+$light: #f5f5f5;
+$pink: #ee02ee;
+
+$text-color: $dark;
+$link-color: $light-pink;
+$link-hover-color: $pink;
+$text-color-light: $light;
+
+// Backgrounds
+// -------------------------
+$bg-dark: $dark;
+$bg-light: $light;
+$bg-violet: $violet;
+$bg-light-pink: $light-pink;
+
+
+// Border radius
+// -------------------------
+$border-radius: 5px;
+
+/*
+header-width
+*/
+
+$header-width: 25%;
